@@ -8,10 +8,11 @@ function App() {
   return (
     <div className="App">
       <div>
-        <a href="/a.pdf" download target="_blank">
+        <a href="./assets/a.pdf" download>
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <a href='../public/a.pdf' download>Teste</a>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
