@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "./dist/assets",
+    "./dist/a.pdf"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
