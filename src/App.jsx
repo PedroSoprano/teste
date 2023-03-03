@@ -12,7 +12,9 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <a href='../public/a.pdf' download>Teste</a>
+      <a href='../public/a.pdf' download>Teste public</a>
+      <a href='./assets/a.pdf' download>Teste assets</a>
+      <a href='../a.pdf' download>Teste raiz</a>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
